@@ -3,16 +3,18 @@
 .App {
     width: 100vw;
     height: 100vh;
-    background-color: blue;
+    background-color: lightsalmon;
     display: flex;
-    flex: column;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
+    font-family: 'Open Sans', 'sans serif';
 }
 
 .heading {
     color: white;
-    align-self: flex-start;
-    margin-top: 5rem;
+    margin-top: 0;
     font-size: 2rem;
+    z-index: 1;
+    padding: 1rem;
 }
